@@ -1,0 +1,15 @@
+# Sistema de Inventario para una Distribuidora
+
+## 1. Nombre del proyecto
+**Sistema de Inventario para una Distribuidora.**
+
+## 2. Problema
+La distribuidora presenta dificultades para llevar un control adecuado de sus productos, ya que una administración poco organizada del inventario puede ocasionar pérdidas, errores en los registros, diferencias en las existencias y falta de información sobre los productos disponibles.
+
+## 3. Objetivo
+Desarrollar un sistema de inventario que permita mejorar el control y la administración de los productos, reducir pérdidas y evitar diferencias en las existencias mediante un registro organizado y eficiente de las entradas y salidas de mercancía.
+
+## 4. Descripción del proyecto
+El proyecto consiste en desarrollar un sistema de inventario para una distribuidora, que facilite el registro, consulta y control de los productos almacenados. Permitirá administrar las entradas y salidas de mercancía, consultar las existencias disponibles y mantener actualizada la información de los productos.
+
+Con este sistema se busca optimizar las actividades de la empresa, mejorar la organización y facilitar la toma de decisiones.
