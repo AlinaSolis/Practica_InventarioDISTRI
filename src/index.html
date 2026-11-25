@@ -4,80 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InventoryPro | Sistema de Inventario</title>
+    <meta name="description" content="InventoryPro, sistema para mejorar el control y la administración del inventario de una distribuidora.">
+
+    <title>InventoryPro | Control de Inventario</title>
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>InventoryPro</h1>
-        <p>Sistema de Inventario para una Distribuidora</p>
+    <!-- Navegación -->
+    <header class="navbar">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">📦</span>
+            Inventory<span>Pro</span>
+        </a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
 
     <main>
 
-        <section>
-            <h2>Controla tu inventario de manera inteligente</h2>
+        <!-- Presentación principal -->
+        <section class="hero" id="inicio">
 
-            <p>
-                InventoryPro es una propuesta de sistema diseñada para
-                facilitar la administración y el control de productos
-                dentro de una distribuidora.
-            </p>
+            <div class="hero-content">
+                <span class="etiqueta">GESTIÓN INTELIGENTE DE INVENTARIO</span>
 
-            <p>
-                Organiza tus productos, registra entradas y salidas
-                de mercancía y consulta las existencias disponibles
-                de una manera sencilla y eficiente.
-            </p>
+                <h1>
+                    Controla tu inventario.
+                    <span>Impulsa tu negocio.</span>
+                </h1>
 
-            <p><strong>¡Conoce una nueva forma de administrar tu inventario!</strong></p>
-        </section>
+                <p>
+                    Administra tus productos de forma organizada,
+                    controla las entradas y salidas de mercancía
+                    y mejora la gestión de tu distribuidora.
+                </p>
 
-        <section>
-            <h2>¿Por qué utilizar InventoryPro?</h2>
-
-            <p>
-                Una buena administración del inventario permite
-                mantener organizada la mercancía, reducir errores
-                y mejorar las actividades diarias de la empresa.
-            </p>
-
-            <h3>Principales beneficios</h3>
-
-            <ul>
-                <li>
-                    <strong>Mayor organización:</strong>
-                    Mantén los productos registrados y clasificados.
-                </li>
-
-                <li>
-                    <strong>Control de existencias:</strong>
-                    Consulta las cantidades disponibles de mercancía.
-                </li>
-
-                <li>
-                    <strong>Reducción de pérdidas:</strong>
-                    Lleva un mejor seguimiento de las entradas y salidas.
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Administra mejor tus productos</h2>
-
-            <div class="banner">
-                <h3>Tu inventario, bajo control</h3>
-                <p>Organización, eficiencia y mejores resultados.</p>
-                <div class="iconos">
-                    📦 &nbsp; 📊 &nbsp; 🏷️ &nbsp; 📋
-                </div>
+                <a href="#beneficios" class="btn-primary">
+                    Conoce más →
+                </a>
             </div>
+
+            <div class="hero-card">
+                <div class="card-top">
+                    <span>📊</span>
+                    <span>Gestión de inventario</span>
+                </div>
+
+                <div class="inventory-illustration">
+                    <div class="package package-one">📦</div>
+                    <div class="package package-two">🏷️</div>
+                    <div class="package package-three">📋</div>
+                </div>
+
+                <h3>Todo en orden, todo bajo control</h3>
+                <p>Una administración más sencilla y eficiente.</p>
+            </div>
+
+        </section>
+
+        <!-- Acerca del proyecto -->
+        <section class="about section" id="nosotros">
+
+            <span class="section-label">NUESTRO PROYECTO</span>
+
+            <h2>Una mejor manera de administrar tu inventario</h2>
+
+            <p class="section-description">
+                InventoryPro es una propuesta de sistema de inventario
+                para distribuidoras, enfocada en facilitar el registro,
+                consulta y control de los productos almacenados.
+                Su finalidad es reducir errores, prevenir pérdidas
+                y mantener organizada la información de la mercancía.
+            </p>
+
+        </section>
+
+        <!-- Beneficios -->
+        <section class="benefits section" id="beneficios">
+
+            <span class="section-label">VENTAJAS PRINCIPALES</span>
+
+            <h2>¿Por qué elegir InventoryPro?</h2>
+
+            <p class="section-description">
+                Herramientas pensadas para mejorar la organización
+                y administración de tu empresa.
+            </p>
+
+            <div class="benefit-grid">
+
+                <article class="benefit-card">
+                    <div class="benefit-icon">📦</div>
+                    <h3>Mayor organización</h3>
+                    <p>
+                        Mantén tus productos registrados y clasificados
+                        para facilitar su administración.
+                    </p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3>Control de existencias</h3>
+                    <p>
+                        Consulta las cantidades disponibles y lleva
+                        un seguimiento de tu mercancía.
+                    </p>
+                </article>
+
+                <article class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Menos pérdidas</h3>
+                    <p>
+                        Mejora el control de entradas y salidas
+                        para reducir errores y diferencias.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Banner promocional -->
+        <section class="banner">
+            <div>
+                <span class="section-label">DA EL SIGUIENTE PASO</span>
+                <h2>Tu inventario merece una mejor administración.</h2>
+                <p>
+                    Organiza tus productos, optimiza tus procesos
+                    y trabaja con mayor eficiencia.
+                </p>
+            </div>
+
+            <a href="#contacto" class="btn-light">
+                Comienza ahora →
+            </a>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contact section" id="contacto">
+
+            <span class="section-label">ESTAMOS PARA AYUDARTE</span>
+
+            <h2>Conoce más sobre nuestro proyecto</h2>
+
+            <p>
+                Si deseas conocer más sobre InventoryPro,
+                puedes comunicarte con nosotros.
+            </p>
+
+            <div class="contact-info">
+                <p>✉️ contacto@inventorypro.com</p>
+                <p>📞 (618) 123 4567</p>
+                <p>📍 Durango, México</p>
+            </div>
+
         </section>
 
     </main>
 
+    <!-- Pie de página -->
     <footer>
-        <p>© 2026 InventoryPro - Todos los derechos reservados.</p>
+        <a href="#inicio" class="footer-logo">InventoryPro</a>
+
+        <p>
+            © 2026 InventoryPro. Proyecto académico de gestión de inventario.
+        </p>
     </footer>
 
 </body>

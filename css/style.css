@@ -1,0 +1,392 @@
+
+/* ==================================
+   INVENTORYPRO - ESTILOS GENERALES
+================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fb;
+    color: #26364b;
+    line-height: 1.7;
+}
+
+/* NAVEGACIÓN */
+
+.navbar {
+    width: 100%;
+    min-height: 78px;
+    padding: 15px 8%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 15px rgba(20, 40, 70, 0.06);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: #142b49;
+    text-decoration: none;
+}
+
+.logo span:last-child {
+    color: #3984cb;
+}
+
+.logo-icon {
+    margin-right: 7px;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #526278;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #3984cb;
+}
+
+/* PRESENTACIÓN */
+
+.hero {
+    min-height: 540px;
+    padding: 90px 10%;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 65px;
+    background: linear-gradient(120deg, #102744, #194c79);
+    color: white;
+}
+
+.etiqueta,
+.section-label {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #438dcc;
+    margin-bottom: 15px;
+}
+
+.etiqueta {
+    color: #9ac9f2;
+}
+
+.hero h1 {
+    font-size: clamp(36px, 5vw, 54px);
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #79b9f0;
+}
+
+.hero-content > p {
+    max-width: 540px;
+    color: #d0dfed;
+    margin-bottom: 32px;
+}
+
+.btn-primary,
+.btn-light {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn-primary {
+    background: #438dcc;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-light:hover {
+    transform: translateY(-4px);
+}
+
+.hero-card {
+    background: white;
+    border-radius: 20px;
+    padding: 28px;
+    color: #26364b;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 700;
+    color: #65758a;
+}
+
+.inventory-illustration {
+    height: 185px;
+    margin: 20px 0;
+    border-radius: 14px;
+    background: #edf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.package {
+    width: 65px;
+    height: 75px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(20, 50, 90, 0.1);
+}
+
+.package-two {
+    transform: translateY(-15px);
+}
+
+.hero-card h3 {
+    color: #193d63;
+    margin-bottom: 5px;
+}
+
+.hero-card p {
+    color: #718096;
+    font-size: 13px;
+}
+
+/* SECCIONES GENERALES */
+
+.section {
+    padding: 85px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    max-width: 750px;
+    margin: 0 auto 18px;
+    font-size: 32px;
+    line-height: 1.3;
+    color: #173553;
+}
+
+.section-description {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #718096;
+}
+
+/* BENEFICIOS */
+
+.benefits {
+    background: #ffffff;
+}
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.benefit-card {
+    background: #f7f9fc;
+    padding: 35px 25px;
+    border: 1px solid #e8edf4;
+    border-radius: 15px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 25px rgba(25, 60, 100, 0.09);
+}
+
+.benefit-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
+    background: #e4f1fd;
+    display: grid;
+    place-items: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+    color: #1b426a;
+    margin-bottom: 12px;
+}
+
+.benefit-card p {
+    font-size: 14px;
+    color: #718096;
+}
+
+/* BANNER */
+
+.banner {
+    margin: 70px 10%;
+    padding: 55px 7%;
+    background: linear-gradient(110deg, #183d63, #367eb9);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner .section-label {
+    color: #a9d5f8;
+}
+
+.banner h2 {
+    max-width: 600px;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+
+.banner p {
+    color: #d5e6f5;
+}
+
+.btn-light {
+    background: white;
+    color: #19466e;
+    white-space: nowrap;
+}
+
+/* CONTACTO */
+
+.contact-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-info p {
+    color: #53677d;
+    font-size: 14px;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    padding: 30px 8%;
+    text-align: center;
+    background: #102744;
+    color: #d0dfed;
+}
+
+.footer-logo {
+    display: inline-block;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+/* DISEÑO RESPONSIVO */
+
+@media (max-width: 850px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 65px 8%;
+    }
+
+    .hero-card {
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .benefit-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar nav {
+        gap: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 55px 7%;
+    }
+
+    .section {
+        padding: 60px 7%;
+    }
+
+    .section h2 {
+        font-size: 26px;
+    }
+
+    .banner {
+        margin: 35px 6%;
+        padding: 35px 25px;
+    }
+
+    .banner h2 {
+        font-size: 25px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
